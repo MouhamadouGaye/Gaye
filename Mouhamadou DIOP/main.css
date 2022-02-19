@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li, a, button {
+    font-family: "Montserral", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(68, 63, 63);;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding: 30px 10%;
+
+}
+.logo {
+    cursor: pointer;
+    height: 50px;
+    margin-right: auto;
+}
+.nav__links {
+    list-style: none;
+   
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color : rgb(248, 180, 96)
+}
+button {
+    padding: 9px 25px;
+    background-color: rgb(248, 180, 96);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer; 
+    transition: all 0.3s ease 0s;
+    margin: 20px;
+    color: white;
+}
+
+button:hover {
+    background-color: whitesmoke ;
+    color: black;
+    border: 0.5px solid black;
+}
+
+.dm{
+    background: fixed;
+    margin-top: 0px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+}
+
+
+
+
+main {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+p {
+    font-size: 25px;;
+    background-color: rgb(248, 180, 96);
+    height: 300px;
+    margin: 15px;
+    padding: 35px;
+    border-radius: 25px;
+    color: white;
+    border: 1.5px solid rgb(255, 140, 0);
+
+}
+.box {
+    margin-top: 55px;
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+    
+}
+
+
+footer {
+    height: 200px;
+    background-color: black;
+    color: bisque;
+    
+}
+
+form {
+    text-align: center;
+
+
+}
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+   
+}
+.serv {
+    background-color: whitesmoke;
+    border:1px solid  rgb(248, 180, 96);
+    border-radius: 25px;
+    display: flex;
+    
+
+}
+body {
+    background-position: center;
+    align-items: center;
+   
+
+}
+
+
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.oko {
+    display: flex;
+    text-align:center ;
+    align-items: center;
+    margin: 50px;
+    gap: 10px;
+}
+.let {
+    height: 100px;
+    width: 100px;
+}
+.diopdiop {
+    justify-content: center;
+    display: flex;
+    font-size: large;
+ 
+    
+}
+
+
+label,input {
+    width: 190px;
+    display: inline-block;
+    color: blueviolet;
+}
+
+button {
+    width: 330px;
+    background-color: bisque;
+}
+
+#formulaire {
+    margin-left: 500px;
+}
+
+.kk {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: bisque;
+    
+    border-radius: 40px; 
+
+}
+.kkk {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: larger;
+    
+
+}
+.content {
+    padding: 30px;
+}
+
